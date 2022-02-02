@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@0,300;0,500;1,500&display=swap");
+:root {
+  --primary-color: #dc143c;
+  --while-color: #ffffff;
+  --black-color: #111111;
+  --background-color: #050505;
+  --brown-color: #222222;
+  /* --nav-height: 65px; */
+  --font-primary: century;
+  --speed-typewriter: 5s;
+  --bg-color: hsl(49 37% 94%);
+  --line-hight--title: 3rem;
+  --speed-after-typewriter: 10s;
+}
+html {
+  scroll-behavior: smooth;
+}
+main {
+  overflow: hidden;
+}
+@keyframes slide-out {
+  /* from {
+    opacity: 0;
+    transform: translateY(100%);
+  } */
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
