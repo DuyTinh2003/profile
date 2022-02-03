@@ -1,4 +1,7 @@
 @media (max-width: 739px) {
+  .nav__wrap--icon-bar {
+    display: block;
+  }
   .nav__menu {
     display: none;
   }
@@ -78,9 +81,6 @@
   .contact__heading--desc {
     min-width: 140px;
   }
-  /* .nohover {
-    pointer-events: none;
-  } */
 }
 @media (max-width: 380px) {
   .home__title {
