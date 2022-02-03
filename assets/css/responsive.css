@@ -14,10 +14,10 @@
     height: 350px;
   }
   .home__title {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   }
   .home__desc {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   @keyframes slide-left {
     from {
@@ -72,6 +72,15 @@
   .contact__body--btn-sent {
     margin: auto;
   }
+  .skill__heading--desc {
+    min-width: 130px;
+  }
+  .contact__heading--desc {
+    min-width: 140px;
+  }
+  /* .nohover {
+    pointer-events: none;
+  } */
 }
 @media (max-width: 380px) {
   .home__title {
